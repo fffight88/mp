@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbchartModelStoreContainer" CdmEntityContainer="dbchartEntities">
+    <EntitySetMapping Name="Revenues">
+      <EntityTypeMapping TypeName="dbchartModel.Revenues">
+        <MappingFragment StoreEntitySet="Revenues">
+          <ScalarProperty Name="소득세" ColumnName="소득세" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bus_gu">
+      <EntityTypeMapping TypeName="dbchartModel.bus_gu">
+        <MappingFragment StoreEntitySet="bus_gu">
+          <ScalarProperty Name="y2021" ColumnName="y2021" />
+          <ScalarProperty Name="y2018" ColumnName="y2018" />
+          <ScalarProperty Name="y2015" ColumnName="y2015" />
+          <ScalarProperty Name="y2012" ColumnName="y2012" />
+          <ScalarProperty Name="y2009" ColumnName="y2009" />
+          <ScalarProperty Name="y2006" ColumnName="y2006" />
+          <ScalarProperty Name="gu" ColumnName="gu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

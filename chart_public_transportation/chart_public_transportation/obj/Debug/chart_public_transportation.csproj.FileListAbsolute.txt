@@ -1,0 +1,17 @@
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\bin\Debug\chart_public_transportation.exe.config
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\bin\Debug\chart_public_transportation.exe
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\bin\Debug\chart_public_transportation.pdb
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\obj\Debug\chart_public_transportation.csproj.AssemblyReference.cache
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\obj\Debug\chart_public_transportation.csproj.SuggestedBindingRedirects.cache
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\obj\Debug\chart_public_transportation.Form1.resources
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\obj\Debug\chart_public_transportation.Properties.Resources.resources
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\obj\Debug\chart_public_transportation.csproj.GenerateResource.cache
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\obj\Debug\chart_public_transportation.csproj.CoreCompileInputs.cache
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\obj\Debug\chart_public_transportation.exe
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\obj\Debug\chart_public_transportation.pdb
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\bin\Debug\EntityFramework.dll
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\bin\Debug\EntityFramework.xml
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\fffig\Desktop\mp\chart_public_transportation\chart_public_transportation\obj\Debug\chart_public_transportation.csproj.CopyComplete

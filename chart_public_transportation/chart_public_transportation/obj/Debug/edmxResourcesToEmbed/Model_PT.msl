@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbchartModelStoreContainer" CdmEntityContainer="dbchartEntities">
+    <EntitySetMapping Name="test">
+      <EntityTypeMapping TypeName="dbchartModel.test">
+        <MappingFragment StoreEntitySet="test">
+          <ScalarProperty Name="gu" ColumnName="gu" />
+          <ScalarProperty Name="C2006" ColumnName="2006" />
+          <ScalarProperty Name="C2009" ColumnName="2009" />
+          <ScalarProperty Name="C2012" ColumnName="2012" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

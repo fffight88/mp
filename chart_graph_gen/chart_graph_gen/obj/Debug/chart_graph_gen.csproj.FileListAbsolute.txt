@@ -1,0 +1,11 @@
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\bin\Debug\chart_graph_gen.exe.config
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\bin\Debug\chart_graph_gen.exe
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\bin\Debug\chart_graph_gen.pdb
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\obj\Debug\chart_graph_gen.csproj.AssemblyReference.cache
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\obj\Debug\chart_graph_gen.csproj.SuggestedBindingRedirects.cache
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\obj\Debug\chart_graph_gen.Form1.resources
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\obj\Debug\chart_graph_gen.Properties.Resources.resources
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\obj\Debug\chart_graph_gen.csproj.GenerateResource.cache
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\obj\Debug\chart_graph_gen.csproj.CoreCompileInputs.cache
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\obj\Debug\chart_graph_gen.exe
+C:\Users\fffig\Desktop\mp\chart_graph_gen\chart_graph_gen\obj\Debug\chart_graph_gen.pdb

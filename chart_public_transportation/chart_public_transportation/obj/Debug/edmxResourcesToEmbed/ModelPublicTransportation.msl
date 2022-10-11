@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="chartModel_bus_areaStoreContainer" CdmEntityContainer="ChartEntities_PT">
+    <EntitySetMapping Name="bus_area">
+      <EntityTypeMapping TypeName="chartModel_bus_area.bus_area">
+        <MappingFragment StoreEntitySet="bus_area">
+          <ScalarProperty Name="연도" ColumnName="연도" />
+          <ScalarProperty Name="도심권" ColumnName="도심권" />
+          <ScalarProperty Name="동북권" ColumnName="동북권" />
+          <ScalarProperty Name="서북권" ColumnName="서북권" />
+          <ScalarProperty Name="서남권" ColumnName="서남권" />
+          <ScalarProperty Name="동남권" ColumnName="동남권" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="taxi_area">
+      <EntityTypeMapping TypeName="chartModel_bus_area.taxi_area">
+        <MappingFragment StoreEntitySet="taxi_area">
+          <ScalarProperty Name="동남권" ColumnName="동남권" />
+          <ScalarProperty Name="서남권" ColumnName="서남권" />
+          <ScalarProperty Name="서북권" ColumnName="서북권" />
+          <ScalarProperty Name="동북권" ColumnName="동북권" />
+          <ScalarProperty Name="도심권" ColumnName="도심권" />
+          <ScalarProperty Name="연도" ColumnName="연도" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mean_area">
+      <EntityTypeMapping TypeName="chartModel_bus_area.mean_area">
+        <MappingFragment StoreEntitySet="mean_area">
+          <ScalarProperty Name="동남권" ColumnName="동남권" />
+          <ScalarProperty Name="서남권" ColumnName="서남권" />
+          <ScalarProperty Name="서북권" ColumnName="서북권" />
+          <ScalarProperty Name="동북권" ColumnName="동북권" />
+          <ScalarProperty Name="도심권" ColumnName="도심권" />
+          <ScalarProperty Name="연도" ColumnName="연도" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="subway_area">
+      <EntityTypeMapping TypeName="chartModel_bus_area.subway_area">
+        <MappingFragment StoreEntitySet="subway_area">
+          <ScalarProperty Name="동남권" ColumnName="동남권" />
+          <ScalarProperty Name="서남권" ColumnName="서남권" />
+          <ScalarProperty Name="서북권" ColumnName="서북권" />
+          <ScalarProperty Name="동북권" ColumnName="동북권" />
+          <ScalarProperty Name="도심권" ColumnName="도심권" />
+          <ScalarProperty Name="연도" ColumnName="연도" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

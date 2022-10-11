@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbchartModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="dbchartEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Revenues" EntityType="dbchartModel.Revenues" />
+    <EntitySet Name="bus_gu" EntityType="dbchartModel.bus_gu" />
+  </EntityContainer>
+  <EntityType Name="Revenues">
+    <Key>
+      <PropertyRef Name="Year" />
+    </Key>
+    <Property Name="Year" Type="Int32" Nullable="false" />
+    <Property Name="Total" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="소득세" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="bus_gu">
+    <Key>
+      <PropertyRef Name="gu" />
+    </Key>
+    <Property Name="gu" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="y2006" Type="Int32" Nullable="false" />
+    <Property Name="y2009" Type="Int32" Nullable="false" />
+    <Property Name="y2012" Type="Int32" Nullable="false" />
+    <Property Name="y2015" Type="Int32" Nullable="false" />
+    <Property Name="y2018" Type="Int32" Nullable="false" />
+    <Property Name="y2021" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>

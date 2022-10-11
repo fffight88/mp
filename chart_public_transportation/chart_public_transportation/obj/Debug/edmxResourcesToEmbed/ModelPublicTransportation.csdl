@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="chartModel_bus_area" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="bus_area">
+    <Key>
+      <PropertyRef Name="연도" />
+    </Key>
+    <Property Name="연도" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="도심권" Type="Double" Nullable="false" />
+    <Property Name="동북권" Type="Double" Nullable="false" />
+    <Property Name="서북권" Type="Double" Nullable="false" />
+    <Property Name="서남권" Type="Double" Nullable="false" />
+    <Property Name="동남권" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ChartEntities_PT" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="bus_area" EntityType="Self.bus_area" />
+    <EntitySet Name="taxi_area" EntityType="chartModel_bus_area.taxi_area" />
+    <EntitySet Name="mean_area" EntityType="chartModel_bus_area.mean_area" />
+    <EntitySet Name="subway_area" EntityType="chartModel_bus_area.subway_area" />
+  </EntityContainer>
+  <EntityType Name="taxi_area">
+    <Key>
+      <PropertyRef Name="연도" />
+    </Key>
+    <Property Name="연도" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="도심권" Type="Double" Nullable="false" />
+    <Property Name="동북권" Type="Double" Nullable="false" />
+    <Property Name="서북권" Type="Double" Nullable="false" />
+    <Property Name="서남권" Type="Double" Nullable="false" />
+    <Property Name="동남권" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="mean_area">
+    <Key>
+      <PropertyRef Name="연도" />
+    </Key>
+    <Property Name="연도" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="도심권" Type="Double" Nullable="false" />
+    <Property Name="동북권" Type="Double" Nullable="false" />
+    <Property Name="서북권" Type="Double" Nullable="false" />
+    <Property Name="서남권" Type="Double" Nullable="false" />
+    <Property Name="동남권" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="subway_area">
+    <Key>
+      <PropertyRef Name="연도" />
+    </Key>
+    <Property Name="연도" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="도심권" Type="Double" Nullable="false" />
+    <Property Name="동북권" Type="Double" Nullable="false" />
+    <Property Name="서북권" Type="Double" Nullable="false" />
+    <Property Name="서남권" Type="Double" Nullable="false" />
+    <Property Name="동남권" Type="Double" Nullable="false" />
+  </EntityType>
+</Schema>
